@@ -1,5 +1,6 @@
 **Optional**
 **This will set up the game**
+
 local frame = script.Parent
 frame.Anchorpoint = Vector2.new(0.5,0.5)
 frame.Position = Udim2.new(0.5,0,0.5,0)
