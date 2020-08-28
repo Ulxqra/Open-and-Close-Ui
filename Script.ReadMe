@@ -1,0 +1,11 @@
+local frame = script.Parent
+script.Parent.Parent.MouseButton1Down:Connect(function()
+frame.Visible = true
+print("Frame Is Visible")
+end)
+
+script.Parent.Parent.Close.MouseButton1Down:Connect(function()
+frame.Visible = false
+print("Frame Isn't Visible")
+end)
+
